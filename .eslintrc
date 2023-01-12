@@ -1,0 +1,30 @@
+{
+	"root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+		"eslint:recommended", 
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react-hooks/recommended", 
+		"prettier"
+	],
+  "rules": {
+    "no-useless-escape": 0,
+    "no-else-return": 1,
+    "prettier/prettier": "error",
+		"semi": "off",
+		"@typescript-eslint/semi": [
+			"warn"
+		],
+		"@typescript-eslint/no-empty-interface": [
+			"error",
+			{
+				"allowSingleExtends": true
+			}
+		]
+  },
+  "plugins": [
+		"@typescript-eslint",
+		"prettier"
+	]
+}
