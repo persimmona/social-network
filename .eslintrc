@@ -2,16 +2,16 @@
 	"root": true,
   "parser": "@typescript-eslint/parser",
   "extends": [
-		"eslint:recommended", 
+		"eslint:recommended",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:react-hooks/recommended", 
+		"plugin:react-hooks/recommended",
 		"prettier"
 	],
   "rules": {
     "no-useless-escape": 0,
     "no-else-return": 1,
-    "prettier/prettier": "error",
+    "prettier/prettier": "warn",
 		"semi": "off",
 		"@typescript-eslint/semi": [
 			"warn"

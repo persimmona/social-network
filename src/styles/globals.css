@@ -1,11 +1,20 @@
-* {
+html,
+body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+
+	color: var(--black);
+	background: #F5F6F8;
+
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
-#root {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+* {
+	box-sizing: border-box;
 }
